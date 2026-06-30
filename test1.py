@@ -32,8 +32,8 @@ def printDetails():
     print("\n")
 
     for key,bike in bikes.items():
-        print(f"Bike key: {key} Details: {bike.name} costs {bike.price} dollars.")
-        # bike.printDetails()
+        # print(f"Bike key: {key} Details: {bike.name} costs {bike.price} dollars.")
+        bike.printDetails()
 
 
 
